@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Shirts" value="Formal shirts for men"/>
+  <parameter name="Pants" value="Formal pants for men"/>
+  <parameter name="Shoes" value="Formal shoes for men"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.booking.functionality.Mynthra">
+        <methods>
+          <include name="formalShoesForMen" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="AfterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- org.booking.functionality.Mynthra -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

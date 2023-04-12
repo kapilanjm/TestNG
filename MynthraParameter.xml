@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="Shirts" value="Formal shirts for men"></parameter>
+<parameter name="Pants" value="Formal pants for men"></parameter>
+<parameter name="Shoes" value="Formal shoes for men"></parameter>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.booking.functionality.Mynthra"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-11T11:44:40Z" name="Suite" finished-at="2023-04-11T11:45:44Z" duration-ms="63544">
+    <groups>
+    </groups>
+    <test started-at="2023-04-11T11:44:40Z" name="Test" finished-at="2023-04-11T11:45:44Z" duration-ms="63544">
+      <class name="org.booking.functionality.Mynthra">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:org.booking.functionality.Mynthra@53f6fd09]" started-at="2023-04-11T11:44:40Z" name="beforeClass" finished-at="2023-04-11T11:44:42Z" duration-ms="2367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.booking.functionality.Mynthra@53f6fd09]" started-at="2023-04-11T11:44:42Z" name="beforeMethod" finished-at="2023-04-11T11:44:42Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="formalShirtsForMen(java.lang.String)[pri:0, instance:org.booking.functionality.Mynthra@53f6fd09]" started-at="2023-04-11T11:44:42Z" name="formalShirtsForMen" finished-at="2023-04-11T11:45:05Z" duration-ms="22102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Formal shirts for men]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formalShirtsForMen -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.booking.functionality.Mynthra@53f6fd09]" started-at="2023-04-11T11:45:05Z" name="AfterMethod" finished-at="2023-04-11T11:45:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.booking.functionality.Mynthra@53f6fd09]" started-at="2023-04-11T11:45:05Z" name="beforeMethod" finished-at="2023-04-11T11:45:05Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="formalPantsForMen(java.lang.String)[pri:1, instance:org.booking.functionality.Mynthra@53f6fd09]" started-at="2023-04-11T11:45:05Z" name="formalPantsForMen" finished-at="2023-04-11T11:45:21Z" duration-ms="16625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Formal pants for men]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formalPantsForMen -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.booking.functionality.Mynthra@53f6fd09]" started-at="2023-04-11T11:45:21Z" name="AfterMethod" finished-at="2023-04-11T11:45:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.booking.functionality.Mynthra@53f6fd09]" started-at="2023-04-11T11:45:21Z" name="beforeMethod" finished-at="2023-04-11T11:45:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="formalShoesForMen(java.lang.String)[pri:2, instance:org.booking.functionality.Mynthra@53f6fd09]" started-at="2023-04-11T11:45:21Z" name="formalShoesForMen" finished-at="2023-04-11T11:45:43Z" duration-ms="21749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Formal shoes for men]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formalShoesForMen -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.booking.functionality.Mynthra@53f6fd09]" started-at="2023-04-11T11:45:43Z" name="AfterMethod" finished-at="2023-04-11T11:45:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:org.booking.functionality.Mynthra@53f6fd09]" started-at="2023-04-11T11:45:43Z" name="afterClass" finished-at="2023-04-11T11:45:44Z" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.booking.functionality.Mynthra -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
