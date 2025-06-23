@@ -22,7 +22,7 @@ public class Mynthra extends MynthraElements {
 	}
 	
 	@Parameters("Shirts")
-	@Test(priority = 0)
+	@Test(priority = 1)
 	public void formalShirtsForMen(String shirt) throws InterruptedException {
 		m=new MynthraElements();
 		urlLaunch("https://www.myntra.com/");
@@ -49,7 +49,7 @@ public class Mynthra extends MynthraElements {
 	}
 	
 	@Parameters("Pants")
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void formalPantsForMen(String pants) throws InterruptedException {
 		m=new MynthraElements();
 		urlLaunch("https://www.myntra.com/");
@@ -76,7 +76,7 @@ public class Mynthra extends MynthraElements {
 	}
 	
 	@Parameters("Shoes")
-	@Test(priority = 2)
+	@Test(priority = 3)
 	public void formalShoesForMen(String shoes) throws InterruptedException {
 		m=new MynthraElements();
 		urlLaunch("https://www.myntra.com/");
